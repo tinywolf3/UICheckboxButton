@@ -21,9 +21,3 @@ swift를 사용한지 4개월밖에 되지 않았기 때문에 코드가 매우 
 	@IBOutlet weak var chk5: UICheckboxButton!
 
 	let _ = UICheckboxButton.RadioGroup(chk1, chk2, chk3, chk4, chk5)
-
-	@IBAction func onCheck(_ sender: UIButton) {
-		sender.isSelected = !sender.isSelected
-	}
-
-.
